@@ -1,9 +1,8 @@
 import React from 'react';
 
-const WeatherData = ({ day, conditions, time }) => {
+const WeatherData = ({conditions, time }) => {
   return (
     <div>
-      <h2>{day}</h2>
       <p>
         <span>Conditions: {conditions}</span>
       </p>
