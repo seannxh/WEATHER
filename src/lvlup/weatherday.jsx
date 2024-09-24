@@ -4,7 +4,7 @@ const WeatherDay = ({day}) => {
     return (
         <div>
             <span>
-                <h1>{day}</h1>
+                <h2>{day}</h2>
             </span>
         </div>
     )
